@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background: url(./pexels-enginakyurt-1486861.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.name{
+    width: 80%;
+    max-width: 470px;
+    background: linear-gradient(135deg,#00feba,#5b5485);
+    color: white;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 45px 30px ;
+    text-align: center;
+}
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search input{
+    border: 0;
+    outline: 0;
+    padding: 10px 25px;
+    background: #fff;
+    color: #555;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 20px;
+}
+.search button{
+    border: 0;
+    outline: 0;
+    background: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.search button img {
+    width: 17px;
+}
+.weather-icon{
+    width: 150px;
+    margin-top: 50px;
+}
+.weather h1{
+    font-size: 80px;
+    font-weight: 500;
+}
+.weather h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 30px;
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.col img{
+    width: 50px;
+    margin-right: 20px;
+}
+.humidity, .wind{
+    font-size: 25px;
+    margin-right: -8px;
+}
+.weather{
+    display: none;
+}
+.error {
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: left;
+    font-size: 15px;
+    display: none;
+}
